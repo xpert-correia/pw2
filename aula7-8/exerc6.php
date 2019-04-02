@@ -1,5 +1,4 @@
 
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -11,8 +10,13 @@
 <body>
 
 <?php
-echo "<h4>hello world</h4>";
+echo gettype("a").'<br>';
+echo gettype(10.5).'<br>';
+echo gettype(true).'<br>';
+echo gettype(20).'<br>';
+echo gettype(null).'<br>';
 ?>
+	
 
 </body>
 </html>

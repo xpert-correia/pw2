@@ -10,9 +10,9 @@
 <body>
 
 <?php
-$a = hello;
-$b = World;
-echo a.b;
+$a = "hello";
+$b = "World";
+echo "<h4>".$a." ".$b."</h4>";
 ?>
 	
 

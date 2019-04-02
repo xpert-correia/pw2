@@ -1,5 +1,4 @@
 
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -11,8 +10,14 @@
 <body>
 
 <?php
-echo "<h4>hello world</h4>";
+$x = 10;
+$y = 7;
+echo "<h4>".$x." + ".$y."= ".($x + $y)."</h4>";
+echo "<h4>".$x." - ".$y."= ".($x - $y)."</h4>";
+echo "<h4>".$x." * ".$y."= ".($x * $y)."</h4>";
+echo "<h4>".$x." / ".$y."= ".($x / $y)."</h4>";
 ?>
+	
 
 </body>
 </html>

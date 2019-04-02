@@ -1,5 +1,4 @@
 
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -11,8 +10,10 @@
 <body>
 
 <?php
-echo "<h4>hello world</h4>";
+$around = "around";
+echo "What goes around comes ".$around;
 ?>
+	
 
 </body>
 </html>
