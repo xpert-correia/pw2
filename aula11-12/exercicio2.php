@@ -4,8 +4,6 @@
 <head>
 	<meta charset="UTF-8">
 	<title>PHP</title>
-	<link rel="stylesheet" type="text/css" href="styles/styles.css">
-	<script type="text/javascript" src="scripts/script.js" async></script>
 </head>
 <body>
 
@@ -27,6 +25,7 @@ são divisíveis por 1 e por ele mesmo.
         }
         if($nDivisoesRestoZero == 2){
             return true;
+
         }
     }
 
@@ -39,9 +38,8 @@ são divisíveis por 1 e por ele mesmo.
     }
 
 
-    allPrimes(150);
-
-
+  allPrimes(100);
+ 
 
 ?>
 	
